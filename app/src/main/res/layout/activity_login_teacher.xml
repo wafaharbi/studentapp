@@ -4,72 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignupParent">
+    tools:context=".LoginTeacher">
 
 
 
     <EditText
-        android:id="@+id/editNS"
+        android:id="@+id/editElogint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="93dp"
-        android:ems="10"
-        android:hint="Full name"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/editES"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="158dp"
+        android:layout_marginTop="121dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editPS"
+        android:id="@+id/editPlogint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="218dp"
+        android:layout_marginTop="194dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
 
-    <EditText
-        android:id="@+id/editPHS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="178dp"
-        android:ems="10"
-        android:hint="Phone"
-        android:inputType="phone" />
-
     <Button
-        android:id="@+id/btnS"
+        android:id="@+id/btnSLAt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="109dp"
-        android:text="Signup" />
+        android:layout_marginBottom="153dp"
+        android:onClick="userloginStudent"
+        android:text="Login" />
 
-    <EditText
-        android:id="@+id/editstd"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textviewForgett"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="27dp"
-        android:ems="10"
-        android:hint="studentid"
-        android:inputType="textPersonName" />
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="65dp"
+        android:text="Forget Password ? click here"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSignupt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="57dp"
+        android:text="create new account? Signup here"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
 
 </RelativeLayout>

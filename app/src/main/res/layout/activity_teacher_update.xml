@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentUpdateInfo">
+    tools:context=".TeacherUpdate">
+
 
     <EditText
-        android:id="@+id/updateName"
+        android:id="@+id/updateNamet"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -19,7 +20,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/updateEmail"
+        android:id="@+id/updateEmailt"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -30,7 +31,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/updatePhone"
+        android:id="@+id/updatePhonet"
         android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -41,7 +42,7 @@
         android:inputType="phone" />
 
     <Button
-        android:id="@+id/btnOK"
+        android:id="@+id/btnOKt"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -52,7 +53,7 @@
         android:text="OK" />
 
     <Button
-        android:id="@+id/btnDelete"
+        android:id="@+id/btnDeletet"
         android:layout_width="137dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -63,7 +64,7 @@
         android:text="delete" />
 
     <TextView
-        android:id="@+id/stdID"
+        android:id="@+id/stdIDt"
         android:layout_width="332dp"
         android:layout_height="32dp"
         android:layout_alignParentTop="true"

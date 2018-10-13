@@ -24,6 +24,13 @@
         <activity android:name=".StudentInfo" />
         <activity android:name=".ForgetPassword" />
         <activity android:name=".StudentUpdateInfo" />
+        <activity android:name=".ParentHome" />
+        <activity android:name=".LoginParent" />
+        <activity android:name=".LoginTeacher" />
+        <activity android:name=".ParentInfo" />
+        <activity android:name=".TeacherInfo" />
+        <activity android:name=".TeacherUpdate" />
+        <activity android:name=".ParentUpadate"></activity>
     </application>
 
 </manifest>

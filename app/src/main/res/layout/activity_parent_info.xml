@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".StudentInfo">
+    tools:context=".ParentInfo">
 
 
     <TextView
@@ -59,12 +58,13 @@
         android:textSize="18sp" />
 
     <ListView
-        android:id="@+id/listInfoStudent"
+        android:id="@+id/listInfoParent"
         android:layout_width="305dp"
         android:layout_height="320dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="83dp" />
+        android:layout_marginTop="83dp"
+        android:footerDividersEnabled="false" />
 
     <TextView
         android:id="@+id/textView7"
@@ -81,21 +81,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
         android:layout_marginBottom="31dp"
-        android:layout_marginStart="120dp"
-        android:onClick="signout"
+        android:layout_toEndOf="@+id/textView5"
+        android:onClick="signoutParent"
         android:text="Signout"
         android:textAllCaps="false" />
-
-    <Button
-        android:id="@+id/btdupdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/button"
-        android:layout_marginEnd="65dp"
-        android:text="Upadte" />
-
 
 </RelativeLayout>
