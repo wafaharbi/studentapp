@@ -52,6 +52,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
+
     <TextView
         android:id="@+id/textViewSignup"
         android:layout_width="wrap_content"

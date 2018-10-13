@@ -53,6 +53,7 @@
         android:onClick="update"
         android:text="OK" />
 
+
     <Button
         android:id="@+id/btnDeletep"
         android:layout_width="137dp"
