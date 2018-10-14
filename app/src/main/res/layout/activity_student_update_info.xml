@@ -69,6 +69,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
+        android:textColor="@android:color/background_dark"
         android:textSize="18sp" />
 
 

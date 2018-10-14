@@ -30,7 +30,7 @@
         <activity android:name=".ParentInfo" />
         <activity android:name=".TeacherInfo" />
         <activity android:name=".TeacherUpdate" />
-        <activity android:name=".ParentUpadate"></activity>
+        <activity android:name=".ParentUpadate" />
     </application>
 
 </manifest>
